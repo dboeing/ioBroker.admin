@@ -1632,7 +1632,7 @@ function buildTree(
             }
 
             // Build a map of aliases
-            if (id.startsWith('alias.') && !obj.common {
+            if (id.startsWith('alias.') && !obj.common) {
                 console.warn(`Alias found without common for ${id}`);
             }
             
